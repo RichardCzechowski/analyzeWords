@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Text Mood Analizer Through Word Frequency</title>
+            <meta name="description" content="Analyze a paragraph of text, count word usage and return mood" />
+            <meta property="og:title" content="Text Mood Analizer Through Word Frequency"/>
+            <meta property="og:type" content="music.playlist"/>
+            <meta property="og:url" content="{}"/>
+            <meta property="og:image" content="{}"/>
+            <meta property="og:site_name" content="Amazon"/>
+            <meta property="fb:app_id" content="{your_app_id}"/>
+            <meta property="music:creator" content="http://samples.ogp.me/390580850990722"/>
+            <link rel="opengraph" href={DESTINATION_URL}/>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="css/bootstrap-theme.css">
+        </head>
+        
+        
+        <body>
+            <div class="container">
+                
+            <h1>Word Frequency</h1>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-md-3">Text</label>
+                    <textarea class="form-control col-md-9" placeholder="Paste Text Here"></textarea>
+                   </div>
+                    <div class="form-group">
+                        <div class="col-md-9">
+                        <button id="button" type="submit" class="btn btn-lg btn-success">Analyze</button>
+                        </div>
+                        </div>
+            </form>
+            
+        
+        
+        <div class="panel panel-default">
+        <div class="panel-heading">Panel heading without title</div>
+        <div class="panel-body">
+        <table id="myTable" class="table table-striped tablesorter">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Happiness Score</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Sadness Score:2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Overall Score (happiness+Zen):</td>
+                <td>7</td>
+            </tr>
+            </tbody>
+        </table>
+  </div>
+</div>
+            </div>
+            
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="jquery.tablesorter.min.js"></script>
+            <script src="script.js"></script>
+        </body>
+    </html>
